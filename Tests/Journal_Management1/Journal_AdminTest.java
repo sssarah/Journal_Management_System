@@ -15,8 +15,8 @@ private Journal_Admin test = new Journal_Admin();
 	    Journal_System JS = new Journal_System();
 	    String heading = in.next("advancedsofware");
 	    String expected = 
-		String actual= test.AddPublication().JS("advancedsofware");
-		assertEquals(expected,actual,);
+		toString() actual= test.AddPublication();
+		assertEquals(expected,actual,"advancedsoftware");
 	}
 	
 
@@ -30,12 +30,12 @@ private Journal_Admin test = new Journal_Admin();
 
 	@Test
 	public void testSave() {
-		fail("Not yet implemented");
+		
 	}
 
 	@Test
 	public void testLoad() {
-		fail("Not yet implemented");
+		
 	}
 
 }

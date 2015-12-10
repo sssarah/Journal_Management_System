@@ -34,8 +34,7 @@ package Journal_Management1;
 		
 	}
 
-	@Override
-	 // this override method is to enter the isbn, heading , writer , fees and 
+     // this override method is to enter the isbn, heading , writer , fees and 
 	//borrowing status when adding a publication.
 	public String toString(){
 		return "\n Isbn:  "+ isbn + "\n Heading:  "+ heading + "\n Writer:  "+ writer + "\n Fees: "+fees+ "\n Borrowed:  "+ borrowed + "\n";
