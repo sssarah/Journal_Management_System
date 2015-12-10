@@ -5,10 +5,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class PuplicationTest {
-
+private Puplication test = new Puplication();
 	@Test
 	public void testPuplication() {
-		fail("Not yet implemented");
+		
 	}
 
 	@Test
